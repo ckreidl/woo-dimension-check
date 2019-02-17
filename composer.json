@@ -1,0 +1,20 @@
+{
+    "name": "ckreidl/woo-dimension-check",
+    "description": "Checks WooCommerce product database via Woo's REST API to identify items that have no weight or dimensions.",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Chris Kreidl",
+        "email": "chris.kreidl@protonmail.ch"
+    }],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ckreidl\\WooDimensionCheck\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
